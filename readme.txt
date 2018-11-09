@@ -3,7 +3,7 @@ Contributors: joppuyo
 Tags: dominant, color, asynchronous
 Requires at least: 4.9.0
 Tested up to: 4.9.8
-Requires PHP: 5.3
+Requires PHP: 5.5.9
 License: License: GPLv3 or later
 
 Calculate the dominant color for every image in WordPress, asynchronously
@@ -30,6 +30,9 @@ One thing missing from this plugin is the "palette" functionality of Dominant Co
 Please report issues and send pull requests on the [GitHub repo](https://github.com/CreunaFI/dominant-color-async).
 
 == Changelog ==
+
+= 1.0.8 =
+* Update PHP requirement information
 
 = 1.0.7 =
 * Move var-dumper to dev dependencies
