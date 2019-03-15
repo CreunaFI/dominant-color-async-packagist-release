@@ -1,8 +1,8 @@
 === Dominant color async ===
 Contributors: joppuyo
 Tags: dominant, color, asynchronous
-Requires at least: 4.9.0
-Tested up to: 4.9.8
+Requires at least: 4.9
+Tested up to: 5.1
 Requires PHP: 5.5.9
 License: License: GPLv3 or later
 
@@ -30,6 +30,10 @@ One thing missing from this plugin is the "palette" functionality of Dominant Co
 Please report issues and send pull requests on the [GitHub repo](https://github.com/CreunaFI/dominant-color-async).
 
 == Changelog ==
+
+= 1.0.11 =
+* Fix: Fix issue where failed image processing can cause an infinite loop
+* Fix: Bump supported WordPress version to 5.1
 
 = 1.0.10 =
 * When processing all unprocessed images, chunk batches to avoid timeout on some servers
